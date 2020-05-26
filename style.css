@@ -1,12 +1,16 @@
 .container {
   display: flex;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .grid {
-  background-color: yellow;
+  background-color: #f8f8ff;
+  border-style: solid;
+  border-width: 1px;
   display: flex;
   flex-wrap: wrap;
   height: 400px;
+  margin-top: 30px;
   width: 200px;
 }
 
@@ -15,20 +19,38 @@
   width: 20px;
 }
 
-.tetromino {
-  background-color: blue;
+.info {
+  padding: 15px 30px;
 }
 
 .mini-grid {
-  background-color: yellow;
+  background-color: #f8f8ff;
+  border-style: solid;
+  border-width: 1px;
   display: flex;
   flex-wrap: wrap;
   height: 80px;
   margin-left: 50px;
+  margin-top: 30px;
   width: 80px;
 }
 
 .mini-grid div {
   height: 20px;
   width: 20px;
+}
+
+.start-button {
+  background-color: lime;
+  border-color: #323232;
+  border-style: solid;
+  cursor: pointer;
+  display: flex;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.square {
+  border: 0.5px solid;
 }
